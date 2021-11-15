@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: 大师 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -86,11 +86,11 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.png
+    qrcode: #images/donate/wechatpayimg.png
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/donate/alipayimg.png 
+    qrcode: #images/donate/alipayimg.png 
     title: 支付宝
 
 # Share
@@ -195,9 +195,9 @@ profile:
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/goodawei
+      weibo: https://github.com/goodawei
+      twitter: https://github.com/goodawei
       # facebook: /
       # dribbble: /
       behance: https://www.behance.net/cofess
@@ -214,11 +214,11 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/goodawei
+    Blog: https://github.com/goodawei
+    微博: https://github.com/goodawei
+    花瓣: https://github.com/goodawei
+    Behance: https://github.com/goodawei
   # My Personal Labels
   labels:
     - 前端
