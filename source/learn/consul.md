@@ -23,3 +23,8 @@ consul agent -bootstrap-expect 1 -server -data-dir /data/consul_data -node=swoft
 
 
 
+### 启动容器 + 分配端口 881 留给容器中 consul 程序的http 使用，同时分配tcp rpc 使用
+docker run -it -v ~/Documents/bitz/docker/data:/data --name myphp -p 8081:80 -p 33006:3006 -p 881:881  3e6a0e34230b
+
+
+consul agent -bootstrap-expect 1 -server -data-dir /data/consul_data -node=swoft01 -bind=0.0.0.0  -enable-script-checks=true -datacenter=sunny -client=0.0.0.0 -ui -http-port=881
